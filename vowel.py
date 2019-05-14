@@ -4,4 +4,4 @@ a.lower()
 if(a in mylist):
  print("Vowel")
 else:
- print("Consonants")
+ print("Consonant")
