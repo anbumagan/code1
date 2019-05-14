@@ -1,7 +1,7 @@
-a = int(input())
-if a < 0:
-    print("Negative")
-elif a > 0:
-    print("Positive")
+a=str(input())
+mylist = ['a','e','i','o','u']
+a.lower()
+if(a in mylist):
+ print("Vowel")
 else:
-    print("Zero")
+ print("Consonants")
